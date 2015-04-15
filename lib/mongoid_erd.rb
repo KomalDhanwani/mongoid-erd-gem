@@ -1,6 +1,6 @@
 require "rviz"
 require "yaml"
-require "active_support/core_ext/string/inflections"
+require "activesupport/core_ext/string/inflections"
 
 class Fields
   attr_accessor :name, :erd_label, :type, :edge
